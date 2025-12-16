@@ -1,0 +1,21 @@
+<mvc:View
+  controllerName="project1.controller.View2"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+
+  <VBox class="sapUiSmallMargin">
+    
+    
+    <Button
+      text="Upload Excel"
+      icon="sap-icon://upload"
+      press=".onSelectExcel" />
+
+    <Button
+      text="Send JSON to Backend"
+      icon="sap-icon://process"
+      press=".onSendJson" />
+
+  </VBox>
+
+</mvc:View>
