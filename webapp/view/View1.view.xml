@@ -16,5 +16,6 @@
 		<Button
 			text="Upload File"
 			press="handleUploadPress"/>
+			<Text text="for git checking"></Text>
 	</l:VerticalLayout>
 </mvc:View>
